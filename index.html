@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 110vh;
+            background: linear-gradient(rgb(168 171 173), rgba(255, 255, 255, 1));
+            background-repeat: no-repeat;
+        }
+
+        nav ul {
+            list-style: none;
+            float: right;
+            margin-right: 150px;
+            margin-top: 15px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .active a {
+            color: coral;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 100px;
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+
+        .container {
+            height: 650px;
+            position: relative;
+        }
+
+        .container img {
+            height: 500px;
+            position: absolute;
+            right: 100px;
+            top: 90px;
+        }
+
+        .content {
+            display: inline-block;
+            margin-top: 200px;
+            margin-left: 150px;
+            font-size: 20px;
+        }
+
+        .content p {
+            margin-top: 20px;
+        }
+
+        .button {
+            margin-top: 25px;
+        }
+
+        .btn1 {
+            margin-right: 10px;
+            background-color: darkblue;
+            border-radius: 20px;
+            padding: 5px 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn2 {
+            background-color: crimson;
+            border-radius: 20px;
+            padding: 5px 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .text {
+            background-color: whitesmoke;
+            height: 135px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .text p {
+            margin: 0 320px;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .items{
+            background-color: honeydew;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 20px;
+        }
+        .text-item{
+            background-color: rgb(226 227 227);
+            width: 270px;
+            height: 180px;
+            margin-left: 25px;
+            padding: 40px 20px;
+            border-radius: 10px;
+        }
+        .text-item img{
+            height: 50px;
+        }
+
+        .items2{
+            padding-top: 40px;
+            background-color: honeydew;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="features-logo.svg">
+        </div>
+        <ul>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Details</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Drop</a></li>
+            <li><a href="">Download</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h1>Team management<br>mobile application</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> Amet dolorem illo tenetur nihil voluptatibus
+                odit? </p>
+            <div class="button">
+                <a href="" class="btn1">Download</a>
+                <a href="" class="btn2">Download</a>
+            </div>
+        </div>
+        <img src="header-smartphone.png">
+    </div>
+
+
+    <!-- text-start -->
+    <div class="text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis saepe consectetur ipsa ipsam totam
+            itaque aut rerum est necessitatibus, quod in repellat, vitae porro accusamus aliquam consequuntur
+            nostrum perspiciatis numquam maxime possimus. Labore, cum!</p>
+    </div>
+    <!-- text-end -->
+
+    <!-- box-start -->
+    <div class="items">
+        <div class="text-item">
+            <img src="features-icon-1 - Copy.svg">
+            <h3>platform integratio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem?
+                consectetur adipisicing elit. Quisquam, dolorem?
+            </p>
+        </div>
+        <div class="text-item">
+            <img src="features-icon-2 - Copy.svg">
+            <h3>platform integratio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem?
+                consectetur adipisicing elit. Quisquam, dolorem?
+            </p>
+        </div>
+        <div class="text-item">
+            <img src="features-icon-3 - Copy.svg">
+            <h3>platform integratio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem?
+                consectetur adipisicing elit. Quisquam, dolorem?
+            </p>
+        </div>
+    </div>
+
+
+    <div class="items2">
+        <div class="text-item">
+            <img src="features-icon-4 - Copy.svg">
+            <h3>platform integratio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem?
+                consectetur adipisicing elit. Quisquam, dolorem?
+            </p>
+        </div>
+        <div class="text-item">
+            <img src="features-icon-5 - Copy.svg">
+            <h3>platform integratio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem?
+                consectetur adipisicing elit. Quisquam, dolorem?
+            </p>
+        </div>
+        <div class="text-item">
+            <img src="features-icon-6.svg">
+            <h3>platform integratio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem?
+                consectetur adipisicing elit. Quisquam, dolorem?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
